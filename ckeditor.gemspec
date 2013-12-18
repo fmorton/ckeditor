@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "ckeditor/version"
 
 Gem::Specification.new do |s|
-  s.name = "ckeditor"
+  s.name = "base2_ckeditor"
   s.version = Ckeditor::Version::GEM.dup
   s.platform = Gem::Platform::RUBY 
   s.summary = "Rails gem for easy integration ckeditor in your application"
